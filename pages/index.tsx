@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-red-600">Hello</h1>
+        <h1 className="flex text-red-600">Hello</h1>
         <h2>World</h2>
       </main>
     </div>
