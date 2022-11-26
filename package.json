@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "svg": "svgr -d src/components/icons src/assets/icons/svgs"
   },
   "dependencies": {
+    "@svgr/cli": "^6.5.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
